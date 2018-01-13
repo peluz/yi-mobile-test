@@ -27,6 +27,11 @@ const styles = StyleSheet.create({
         marginTop: 80,
         color: '#fff',
         fontFamily: 'Roboto',
+        shadowColor: '#000',
+        shadowOffset: { width: 2, height: 2 },
+        shadowOpacity: 0.5,
+        shadowRadius: 5,
+        elevation: 1,
     },
 
     containerStyle: {
@@ -42,7 +47,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
         marginLeft: 2,
         marginRight: 2,
-        backgroundColor: 'rgba(0,0,0,0.2)'
+        backgroundColor: 'rgba(0,0,0,0.4)'
     }
 });
 
