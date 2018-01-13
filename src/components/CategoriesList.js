@@ -20,22 +20,27 @@ class CategoriesList extends Component {
                 <ScrollView contentContainerStyle={styles.scrollStyle} horizontal >
                     <View style={styles.containerStyle}>
                         <Image style={styles.imageStyle} source={require('../assets/img/pizza_square.png')}/>
+                        <View style={styles.overlay} />
                         <Text style={styles.textStyle}>Pizza</Text>
                     </View>
                     <View style={styles.containerStyle}>
                         <Image style={styles.imageStyle} source={require('../assets/img/cafe_square.png')}/>
+                        <View style={styles.overlay} />
                         <Text style={styles.textStyle}>Cafés</Text>
                     </View>
                     <View style={styles.containerStyle}>
                         <Image style={styles.imageStyle} source={require('../assets/img/japanese_square.png')}/>
+                        <View style={styles.overlay} />
                         <Text style={styles.textStyle}>Japonesa</Text>
                     </View>
                     <View style={styles.containerStyle}>
                         <Image style={styles.imageStyle} source={require('../assets/img/burger_square.png')}/>
+                        <View style={styles.overlay} />
                         <Text style={styles.textStyle}>Burger</Text>
                     </View>
                     <View style={styles.containerStyle}>
                         <Image style={styles.imageStyle} source={require('../assets/img/vegetarian_square.png')}/>
+                        <View style={styles.overlay} />
                         <Text style={styles.textStyle}>Vegetariano</Text>
                     </View>
                 </ScrollView>
@@ -60,7 +65,7 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginBottom: 20,
         marginLeft: 2,
-        marginRight: 2
+        marginRight: 2,
     },
 
     scrollStyle: {
@@ -73,12 +78,27 @@ const styles = StyleSheet.create({
         position: 'absolute',
         marginTop: 80,
         color: '#fff',
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
     },
 
     containerStyle: {
         flex: 1,
-        alignItems: 'center',
+        alignItems: 'center'
+    },
+
+    overlay: {
+        position: 'absolute',
+        height: 90,
+        width: 90,
+        marginTop: 20,
+        marginBottom: 20,
+        marginLeft: 2,
+        marginRight: 2,
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: 'rgba(0,0,0,0.2)'
     }
 });
 
