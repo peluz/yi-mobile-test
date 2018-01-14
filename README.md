@@ -40,3 +40,5 @@ A tela consiste em 6 components, além do componente principal App:
 	   react-native run-android
 	    ```	
 	5. Após os passos acima, o app deverá carregar no simulador.
+
+	![preview](preview.png)
