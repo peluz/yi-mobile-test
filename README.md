@@ -3,8 +3,8 @@
 Esse repositório contém o código fonte de um aplicação mobile (testada em android) desenvolvida com o uso da biblioteca react-native. A aplicação consiste em uma tela com notas e informações sobre restaurantes. 
 
 ## Conteúdo
- 1. [Desenvolvimento](#Desenvolvimento)
- 2. [Uso](#Uso)
+ 1. [Desenvolvimento](#desenvolvimento)
+ 2. [Uso](#uso)
 
 ### Desenvolvimento
 
