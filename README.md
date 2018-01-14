@@ -22,10 +22,14 @@ A tela consiste em 6 components, além do componente principal App:
 	1. Um simulador android, como o fornecido por Android Studio
 	2. [React-native](https://facebook.github.io/react-native/)
 	3. [yarn](https://yarnpkg.com/en/)
-* Etapas:
-	1. Clone o repositório.
-	2. Abra o simulador android
-	3. Vá para a pasta clonada e rode no terminal:
+
+#### Etapas
+
+1. Clone o repositório.
+
+2. Abra o simulador android
+
+3. Vá para a pasta clonada e rode no terminal:
 
 ```bash
    yarn install
@@ -45,5 +49,5 @@ A tela consiste em 6 components, além do componente principal App:
 ```	
 
    6. Após os passos acima, o app deverá carregar no simulador.
-   
+
 <img src="./preview.png" width="500">
