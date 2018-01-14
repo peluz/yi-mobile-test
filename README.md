@@ -46,4 +46,4 @@ A tela consiste em 6 components, além do componente principal App:
 
    6. Após os passos acima, o app deverá carregar no simulador.
 
-![preview](./preview.png)
+![preview](./preview.png | width=200)
