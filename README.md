@@ -26,19 +26,19 @@ A tela consiste em 6 components, além do componente principal App:
 	1. Clone o repositório.
 	2. Abra o simulador android
 	3. Vá para a pasta clonada e rode no terminal:
-	```bash
-	   yarn install
-	   rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json
-	    ``` 
+```bash
+   yarn install
+   rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json
+    ``` 
 	4. Quando terminar a instalação das dependências, rode:
-	```bash
-	   yarn start
-	    ```	
+```bash
+   yarn start
+    ```	
 	5. Em outro terminal, rode:
 	4. Quando terminar a instalação das dependências, rode:
-	```bash
-	   react-native run-android
-	    ```	
+```bash
+   react-native run-android
+    ```	
 	5. Após os passos acima, o app deverá carregar no simulador.
 
-	![preview](./preview.png)
+![preview](./preview.png)
