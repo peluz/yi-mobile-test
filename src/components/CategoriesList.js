@@ -38,8 +38,8 @@ class CategoriesList extends Component {
 
 const styles = StyleSheet.create({
     scrollStyle: {
-        paddingLeft: 40,
-        paddingRight: 20,
+        paddingLeft: 30,
+        paddingRight: 30,
         justifyContent: 'space-around',
     },
     containerStyle: {

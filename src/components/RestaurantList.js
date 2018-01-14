@@ -39,8 +39,9 @@ class RestaurantList extends Component {
 const styles = StyleSheet.create({
     scrollStyle: {
         paddingTop: 10,
-        paddingLeft: 20,
-        paddingRight: 20,
+        paddingBottom: 10,
+        paddingLeft: 10,
+        paddingRight: 10,
         justifyContent: 'space-around',
     },
     containerStyle: {
