@@ -29,7 +29,7 @@ const styles = {
         flexDirection: 'row'
     },
     textStyle: {
-        fontSize: 30,
+        fontSize: 25,
         fontFamily: 'Roboto',
         color: '#fff',
     },

@@ -5,23 +5,19 @@
  */
 
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View } from 'react-native';
 import Header from './src/components/Header';
-import CategoriesList from './src/components/CategoriesList'
+import CategoriesList from './src/components/CategoriesList';
+import RestaurantList from './src/components/RestaurantList';
 import restaurants from './src/assets/restaurants.json';
 
 const App = () => (
   <View style={{ flex: 1 }}>
     <Header headerText={'Restaurantes'} />
-    <CategoriesList style={styles.categoriesStyle} categories={restaurants.categories} />
+    <CategoriesList categories={restaurants.categories} />
+    <RestaurantList list={restaurants.list} />
   </View>
 );
-
-const styles = StyleSheet.create({
-    categoriesStyle: {
-      flex: 1
-    }
-});
 
 
 export default App;

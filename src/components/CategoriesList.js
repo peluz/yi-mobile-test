@@ -28,7 +28,7 @@ class CategoriesList extends Component {
 
         return (
             <View style={styles.containerStyle}>
-                <ScrollView contentContainerStyle={styles.scrollStyle} horizontal>
+                <ScrollView showsHorizontalScrollIndicator={false} contentContainerStyle={styles.scrollStyle} horizontal>
                     {this.renderCategories()}
                 </ScrollView>
             </View>
@@ -38,7 +38,7 @@ class CategoriesList extends Component {
 
 const styles = StyleSheet.create({
     scrollStyle: {
-        paddingLeft: 20,
+        paddingLeft: 40,
         paddingRight: 20,
         justifyContent: 'space-around',
     },

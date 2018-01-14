@@ -36,7 +36,9 @@ const styles = StyleSheet.create({
 
     containerStyle: {
         flex: 1,
-        alignItems: 'center'
+        alignItems: 'center',
+        marginLeft: 2,
+        marginRight: 2,
     },
 
     overlay: {
