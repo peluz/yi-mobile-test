@@ -45,7 +45,12 @@ const styles = StyleSheet.create({
     containerStyle: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        shadowColor: '#000',
+        shadowOffset: { width: 2, height: 2 },
+        shadowOpacity: 0.5,
+        shadowRadius: 5,
+        elevation: 1,
     }
 });
 

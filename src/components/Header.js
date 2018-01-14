@@ -24,7 +24,7 @@ const styles = {
         shadowOffset: { width: 2, height: 2 },
         shadowOpacity: 0.5,
         shadowRadius: 5,
-        elevation: 1,
+        elevation: 2,
         position: 'relative',
         flexDirection: 'row'
     },
